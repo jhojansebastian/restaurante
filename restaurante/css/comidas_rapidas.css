@@ -1,0 +1,121 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header h1{
+    background-color: #383636;
+    text-align: center;
+    color: rgb(228, 221, 221);
+    font-size: 35px;
+    height: 250px;
+}
+.padre{
+    height: 1200px;
+    width: 100%;
+    font-size: 25px;
+}
+img{
+    height: 1100px;
+    width: 100%;
+    position: absolute;
+    opacity: 0.4;
+}
+.img1{
+    height: 1100px;
+    width: 100%;
+    position: absolute;
+    opacity: 0.4;
+}
+
+.comidas{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    background-color: rgb(0, 0, 0);
+    margin-left: 5%;
+    margin-top: 4%;
+    height: 1100px; 
+}
+.comd_izq{
+    color: rgb(255, 255, 255);
+    position: absolute;
+    margin-left: 700px;
+    background-color: rgb(0, 0, 0);
+    margin-top: 4%;
+    margin-bottom: auto;
+    height: 1100px;
+}
+
+.tit{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.ing{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.ingre{
+    text-align: center;
+    font-size: 25px;
+    margin-top: 25px;
+}
+body{
+    background-image: url(../img/Texture1366x768.jpg);
+    width: 100%;
+}
+.com1{
+    position: relative;
+}
+.nom{
+    color: white;
+    font-size: 22px;
+}
+.logo{
+    height: 150px;
+    width: 150px;
+    margin-top: 6%;
+    margin-left: 2%;
+}
+@media(min-width: 400px)and (max-width: 1150px){
+    .padre{
+        display: flex;
+        height: 2260px;
+    }
+    .comidas{
+        color: rgb(255, 255, 255);
+        position: absolute;
+        background-color: rgb(0, 0, 0);
+        margin-left: 9px;
+        margin-top: 4%;
+        height: 1000px; 
+        width: 460px;
+        font-size: 14px;
+        margin-bottom: 100px;
+    }
+    .comd_izq{
+        color: rgb(255, 255, 255);
+        position: absolute;
+        margin-left: 10px;
+        background-color: rgb(0, 0, 0);
+        margin-top: 1100px;
+        height: 1100px;
+        font-size: 15px;
+    }    
+    img{
+        height: 1000px;
+        width: 100%;
+        position: absolute;
+        opacity: 0.4;
+    }
+    .img1{
+        height: 1100px;
+        width: 100%;
+        position: absolute;
+        opacity: 0.4;
+    }
+    .logo{
+        height: 150px;
+        width: 150px;
+        margin-top: 76px;
+        margin-left: 2%;
+    }
+    
+}

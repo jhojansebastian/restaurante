@@ -1,0 +1,70 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header h1{
+    background-color: #383636;
+    text-align: center;
+    color: rgb(228, 221, 221);
+    font-size: 35px;
+}
+.padre{
+    background-image: url(../img/Texture1366x768.jpg);
+}
+.arrib{
+    height: auto;
+    width: auto;
+    padding: 5%;
+    margin-bottom: 25px;
+    display: grid;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    justify-content: center;
+    background-image: url(../img/Wines.jpg);
+    background-repeat: no-repeat;
+}
+.cent{
+    height: auto;
+    width: auto;
+    padding: 5%;
+    margin: auto;
+    display: grid;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    justify-content: center;
+    margin-bottom: 25px;
+    background-image: url(../img/bebidass.jpg);
+
+}
+.abaj{
+    height: auto;
+    width: auto;
+    padding: 5%;
+    margin: auto;
+    display: grid;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    justify-content: center;
+    background-image: url(../img/poker.jpg);
+}
+img{
+    margin: auto;
+}
+.ing{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.cen{
+    margin: auto;
+}
+footer{
+    background-color: #383636;
+}
+.nom{
+    color: white;
+    font-size: 22px;
+}
+.logo{
+    height: 150px;
+    width: 150px;
+}

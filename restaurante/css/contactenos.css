@@ -1,0 +1,47 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header h1{
+    background-color: #383636;
+    text-align: center;
+    color: rgb(228, 221, 221);
+    font-size: 35px;
+}
+.contacto{
+    background-color: #ffffff;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    padding-bottom: 2%;
+    background-image: url(../img/Texture1366x768.jpg);
+
+}
+.formulario{
+    width: 190px;
+    height: 390px;
+    margin: auto;
+    background-color: #272525;
+    padding-bottom: 20px;
+}
+input, textarea{
+    padding-top: 10%;
+    margin-top: 10%;
+}
+img{
+    height: 100px;
+    width: 100px;
+    margin-left: 80%;
+    margin-top: -50%;
+}
+body{
+    background-image: url(../img/Texture1366x768.jpg);
+}
+.nom{
+    color: white;
+    font-size: 22px;
+}
+.logo{
+    height: 150px;
+    width: 150px;
+    margin: 2%;
+}

@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../css/reserva.css">
+    <link rel="stylesheet" href="../css/menu.css">
+    <link rel="stylesheet" href="../css/redes.css">
+    <link rel="icon" href="../img/logo.png">
+</head>
+<body>
+    <header>
+        <h1>
+            Restaurante <br>
+            "Manjar de casa" <br>
+            <img class="logo" src="../img/logo.png" alt="">
+
+        </h1>
+        <nav id='menu'>
+          <input type='checkbox' id='responsive-menu' onclick='updatemenu()'><label></label>
+         <ul>
+           <li><a href='../index.html'>Inicio</a></li>
+           <li><a class='dropdown-arrow' href='http://'>Menu :)</a>
+             <ul class='sub-menus'>
+               <li><a href='../Platos/platos.html'>Platos</a></li>
+               <li><a href='../bebidas/bebidas.html'>Bebidas</a></li>
+               <li><a href='../comidas_rapidas/comidas_rapidas.html'>Comidas Rapidas</a></li>
+             </ul>
+           </li>
+           <li><a href='../reserva/reserva.html'>Reservar</a></li>
+           <li><a href='../contactenos/contactenos.html'>¡Contactenos!</a></li>
+         </ul>
+        </nav>
+    </header> 
+    <h2>"Todas sus delicias las encuentra aqui"<br></h2>
+    <p>
+     <h2>¡Reserva aqui!</h2>
+     <p class="frase">Para que pases un momento agradable solo o en compañia en nuestro local con nuestros platillos</p>
+    </p>
+    <div class="reservar">
+        <fieldset>
+            <div class="table">
+                <form action="">
+                    <table>
+                        <tr>
+                            <td>
+                                <label for="">Fecha*</label>
+                            </td>
+                            <td>
+                                <input type="date" name="" id="">
+                            </td>
+                            <td>
+                                <label for="">Hora*</label>
+                            </td>
+                            <td>
+                                <select name="" id="">
+                                    <option value="">08:00 Am</option> <option value="">09:00 Am</option> <option value="">10:00 Am</option>
+                                    <option value="">11:00 Am</option> <option value="">12:00 Pm</option> <option value="">01:00 Pm</option>
+                                    <option value="">02:00 Pm</option> <option value="">03:00 Pm</option> <option value="">04:00 Pm</option>
+                                    <option value="">05:00 Pm</option> <option value="">06:00 Pm</option> <option value="">07:00 Pm</option>
+                                </select>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="">Nombre*</label></td>
+                            <td><input type="text" name="" id=""></td>
+                            <td><label for="">Apellidos*</label></td>
+                            <td><input type="text" name="" id=""></td>
+                        </tr>
+                        <tr>
+                            <td><label for="">Cuantas personas*</label></td>
+                            <td>
+                                <select name="" id="">
+                                    <option value="">1</option> <option value="">2</option> <option value="">3</option>
+                                    <option value="">4</option> <option value="">5</option> <option value="">6</option>
+                                    <option value="">7</option> <option value="">8</option> 
+                                </select>
+                            </td>
+                            <td><label for="">Telefono de contacto*</label></td>
+                            <td>
+                                <input type="text" name="" id="">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="">Email*</label></td>
+                            <td>
+                                <input type="email" name="" id="">
+                            </td>
+                        </tr>
+                        <tr>
+                            <td><label for="">Comentarios</label></td>
+                            <td>
+                                <textarea name="" id="" cols="25" rows="10"></textarea>
+                            </td>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <input class="boton" type="submit" value="Enviar">
+                            </td>
+                        </tr>
+                    </table>
+                </form>    
+            </div>
+        </fieldset>
+    </div>
+    <footer>
+        <center>
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+            <div class="wrapper">
+              <div class="button">
+                 <div class="icon">
+                    <a href="https://web.facebook.com/"><span class="fab fa-facebook-f"></span></a>
+                 </div>
+                 <span>Facebook</span>
+              </div>
+              <div class="button">
+                 <div class="icon">
+                    <a href="https://twitter.com/"><span class="fab fa-twitter"></span></a>
+                 </div>
+                 <span>Twitter</span>
+              </div>
+              <div class="button">
+                 <div class="icon">
+                    <a href="https://www.instagram.com/"><span class="fab fa-instagram"></span></a>
+                 </div>
+                 <span>Instagram</span>
+              </div>
+          </div> </center> 
+    </footer>
+
+</body>
+</html>

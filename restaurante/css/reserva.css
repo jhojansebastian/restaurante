@@ -1,0 +1,68 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header h1{
+    background-color: #383636;
+    text-align: center;
+    color: rgb(228, 221, 221);
+    font-size: 35px;
+}
+h2{
+    text-align: center;
+}
+.frase{
+    font-size: 20px;
+    text-align: center;
+    margin-top: 20px;
+}
+.reservar{
+    font-size: 20px;
+    margin-bottom: 50px;
+    width: 100px;
+    height: auto;
+    padding-right: 20%;
+    margin-left: 25%;
+}
+.table{
+    text-align: center;
+    background-color: #272525;
+    color: white;
+}
+.boton{
+    margin-left: 60%;
+    
+}
+select, input{
+    width: 200px;
+}
+.nom{
+    color: white;
+    font-size: 22px;
+}
+body{
+    background-image: url(../img/Texture1366x768.jpg);
+    background-repeat: no-repeat;
+}
+.logo{
+    height: 150px;
+    width: 150px;
+}
+
+@media(min-width: 400px)and (max-width: 1150px){ 
+    .reservar{
+        height: 300px;
+        width: 100px;
+        padding-left: 10px;
+        font-size: 8px;
+        margin-left: -10px;
+
+   }
+   .boton{
+        margin-left: 70%;
+   }
+   table{
+     font-size: 8px;
+     width: 80px;
+    }
+}

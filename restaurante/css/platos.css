@@ -1,0 +1,84 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+header h1{
+    background-color: #383636;
+    text-align: center;
+    color: rgb(228, 221, 221);
+    font-size: 35px;
+    height: 250px;
+}
+
+.externa{
+    height: auto;
+    margin: 20px;
+    margin-left: 25%;
+    margin-right: 25%;
+    background-color: rgb(0, 0, 0);
+
+}
+.cajas{
+    background-color: rgb(0, 0, 0) ;
+}
+.platos{
+    height: auto;
+    width: auto;
+    border: solid 3px black;
+    margin: auto;
+    position: relative;
+    color: white;
+}
+h2{
+    text-align: center;
+}
+.platos h3{
+    text-align: center;
+}
+.platos p{
+    font-size: 18px;
+    text-align: center;
+}
+.ing{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: left;
+}
+img{
+    position: absolute;
+    opacity: 0.5;
+    height: 1040px;
+    width: 672px;
+}
+body{
+    background-image: url(../img/Texture1366x768.jpg);
+}
+.nom{
+    color: white;
+    font-size: 22px;
+}
+.logo{
+    height: 150px;
+    width: 150px;
+    margin: 1%;
+    margin-left: -5%;
+}
+
+@media(min-width: 430px) and (max-width: 800px){
+    .externa{
+        margin-left: 10%;
+        margin-right: 10%;
+    }
+    img{
+        position: absolute;
+        opacity: 0.5;
+        height: 195%;
+        width: 80%;
+    }
+    .logo{
+        height: 150px;
+        width: 150px;
+        margin: 1%;
+        margin-left: -10%;
+    }
+}
